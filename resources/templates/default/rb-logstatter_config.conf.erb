@@ -1,0 +1,20 @@
+monitors:
+<% @logstash_monitors.each do |monitor| %>
+  - "<%= monitor %>"
+<% end %>
+
+pipelines:
+<% @logstash_pipelines.each do |pipeline| %>
+  - "<%= pipeline %>"
+<% end %>
+
+base_url: "<%= @base_url %>"
+
+brokers:
+<% @kafka_brokers.each do |broker| %>
+  - "<%= broker %>"
+<% end %>
+
+topic: "<%= @kafka_topic %>"
+
+request_sleep: <%= @request_sleep %>
