@@ -1,0 +1,26 @@
+2023-12-12 14:21:35,859 - Mock Version: 2.17
+2023-12-12 14:21:39,078 - Start: dnf update
+2023-12-12 14:21:46,105 - Finish: dnf update
+2023-12-12 14:21:46,111 - Finish: chroot init
+2023-12-12 14:21:46,116 - Start: buildsrpm
+2023-12-12 14:21:46,121 - Start: rpmbuild -bs
+2023-12-12 14:21:46,447 - Finish: rpmbuild -bs
+2023-12-12 14:21:46,450 - Finish: buildsrpm
+2023-12-12 14:21:46,452 - Start: clean chroot
+2023-12-12 14:21:48,098 - Finish: clean chroot
+2023-12-12 14:21:48,099 - Finish: run
+2023-12-12 14:21:51,542 - Mock Version: 2.17
+2023-12-12 14:21:54,061 - Start: dnf update
+2023-12-12 14:22:00,530 - Finish: dnf update
+2023-12-12 14:22:00,537 - Finish: chroot init
+2023-12-12 14:22:00,547 - Start: build phase for cookbook-rb-logstatter-0.0.1-1.el9.rb.src.rpm
+2023-12-12 14:22:00,550 - Start: build setup for cookbook-rb-logstatter-0.0.1-1.el9.rb.src.rpm
+2023-12-12 14:22:04,087 - Finish: build setup for cookbook-rb-logstatter-0.0.1-1.el9.rb.src.rpm
+2023-12-12 14:22:04,088 - Start: Outputting list of installed packages
+2023-12-12 14:22:04,819 - Finish: Outputting list of installed packages
+2023-12-12 14:22:04,819 - Start: rpmbuild cookbook-rb-logstatter-0.0.1-1.el9.rb.src.rpm
+2023-12-12 14:22:06,147 - Finish: rpmbuild cookbook-rb-logstatter-0.0.1-1.el9.rb.src.rpm
+2023-12-12 14:22:06,152 - Finish: build phase for cookbook-rb-logstatter-0.0.1-1.el9.rb.src.rpm
+2023-12-12 14:22:06,156 - Start: clean chroot
+2023-12-12 14:22:08,099 - Finish: clean chroot
+2023-12-12 14:22:08,100 - Finish: run
