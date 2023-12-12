@@ -17,7 +17,7 @@ action :add do
       flush_cache[:before]
     end
 
-    directory config_dir do # /etc/redborder-ale
+    directory config_dir do # /etc/logstatter
       owner 'logstatter'
       group 'logstatter'
       mode '700'
