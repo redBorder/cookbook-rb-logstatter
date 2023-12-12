@@ -1,4 +1,4 @@
-#default attributes
+# default attributes
 #
 
-default["rb-logstatter"]["registered"] = false
+default['rb-logstatter']['registered'] = false
