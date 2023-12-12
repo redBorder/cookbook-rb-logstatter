@@ -1,4 +1,5 @@
 # cookbook-rb-logstatter
+![linters](https://github.com/malvads/logstatter/actions/workflows/ci.yml/lint.svg?event=push)
 
 cookbook to install and configure redborder logstatter
 
