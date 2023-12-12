@@ -1,4 +1,4 @@
-# Cookbook Name :: rbale
+# Cookbook Name :: rblogstatter
 #
 # Resource:: config
 

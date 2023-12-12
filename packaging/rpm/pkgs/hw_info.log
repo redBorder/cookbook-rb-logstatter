@@ -13,10 +13,10 @@ CPU family:            6
 Model:                 60
 Model name:            Intel(R) Core(TM) i5-4690 CPU @ 3.50GHz
 Stepping:              3
-CPU MHz:               3897.338
+CPU MHz:               3857.818
 CPU max MHz:           3900.0000
 CPU min MHz:           800.0000
-BogoMIPS:              6983.88
+BogoMIPS:              6984.20
 Virtualization:        VT-x
 L1d cache:             32K
 L1i cache:             32K
@@ -28,10 +28,10 @@ Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca 
 
 Memory:
               total        used        free      shared  buff/cache   available
-Mem:       16128780     5707000     1954116     1031464     8467664     9054200
-Swap:       8191996      235264     7956732
+Mem:       16128780    12403432     1027508     1057564     2697840     2331048
+Swap:       8191996     3196164     4995832
 
 
 Storage:
 Filesystem               Size  Used Avail Use% Mounted on
-/dev/mapper/centos-root   54G   46G  8.0G  86% /
+/dev/mapper/centos-root   54G   45G  9.6G  83% /

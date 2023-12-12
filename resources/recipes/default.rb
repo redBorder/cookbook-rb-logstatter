@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: rbale
+# Cookbook Name:: rblogstatter
 # Recipe:: default
 #
 # redborder
