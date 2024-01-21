@@ -11,7 +11,7 @@ attribute :kafka_brokers, kind_of: Array, default: ['kafka.service:9092']
 attribute :base_url, kind_of: String, default: 'http://localhost:9600'
 attribute :kafka_topic, kind_of: String, default: 'rb_monitor'
 attribute :request_sleep, kind_of: Integer, default: 200
-attribute :logstash_monitors, kind_of: Array, default: %w[
+attribute :logstash_monitors, kind_of: Array, default: %w(
   logstash_cpu
   logstash_load_1
   logstash_load_5
@@ -21,8 +21,8 @@ attribute :logstash_monitors, kind_of: Array, default: %w[
   logstash_events_per_pipeline
   logstash_events_count_queue
   logstash_events_count_queue_bytes
-]
-attribute :logstash_pipelines, kind_of: Array, default: %w[
+)
+attribute :logstash_pipelines, kind_of: Array, default: %w(
   vault-pipeline
   sflow-pipeline
   netflow-pipeline
@@ -37,4 +37,4 @@ attribute :logstash_pipelines, kind_of: Array, default: %w[
   bulkstats-pipeline
   redfish-pipeline
   apstate-pipeline
-]
+)
