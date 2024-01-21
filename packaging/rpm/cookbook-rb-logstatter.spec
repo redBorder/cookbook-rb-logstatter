@@ -49,5 +49,7 @@ systemctl daemon-reload
 %doc
 
 %changelog
+* Sun Jan 21 2024 - Miguel Álvarez <malvarez@redborder.com> - 0.0.2-1
+- Add apstate pipeline
 * Mon Sep 25 2023 - Miguel Álvarez <malvarez@redborder.com> - 0.0.1-1
 - Initial spec version
