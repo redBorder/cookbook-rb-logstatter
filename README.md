@@ -1,7 +1,17 @@
 # cookbook-rb-logstatter
-![linters](https://github.com/redBorder/cookbook-rb-logstatter/actions/workflows/lint.yml/badge.svg?event=push)
+[![Build Status][build-shield]][build-url]
+[![Linters][linters-shield]][linters-url]
+[![License][license-shield]][license-url]
 
-cookbook to install and configure redborder logstatter
+<!-- Badges -->
+[build-shield]: https://github.com/redBorder/cookbook-rb-logstatter/actions/workflows/rpm.yml/badge.svg?branch=master
+[build-url]: https://github.com/redBorder/cookbook-rb-logstatter/actions/workflows/rpm.yml?query=branch%3Amaster
+[linters-shield]: https://github.com/redBorder/cookbook-rb-logstatter/actions/workflows/lint.yml/badge.svg?event=push
+[linters-url]: https://github.com/redBorder/cookbook-rb-logstatter/actions/workflows/lint.yml
+[license-shield]: https://img.shields.io/badge/license-AGPLv3-blue.svg
+[license-url]: https://github.com/cookbook-rb-logstatter/blob/HEAD/LICENSE
+
+Chef cookbook to install and configure redborder logstatter
 
 ### Platforms
 
@@ -9,7 +19,7 @@ cookbook to install and configure redborder logstatter
 
 ### Chef
 
-- Chef 12.0 or later
+- Chef 15.7.0 or later
 
 ## Contributing
 
@@ -20,8 +30,6 @@ cookbook to install and configure redborder logstatter
 5. Run the tests, ensuring they all pass
 6. Submit a Pull Request using Github
 
-## License and Authors
+## License
 
-Authors: Miguel Álvarez <malvarez@redborder.com>
-
-LICENSE: AFFERO GENERAL PUBLIC LICENSE, Version 3, 19 November 2007
+GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
