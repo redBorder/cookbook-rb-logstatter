@@ -1,4 +1,4 @@
-cookbook-rb-ale CHANGELOG
+cookbook-rb-logstatter CHANGELOG
 ===============
 
 ## 0.0.3
