@@ -26,6 +26,9 @@ chmod -R 0755 %{buildroot}/var/chef/cookbooks/rb-logstatter
 install -D -m 0644 README.md %{buildroot}/var/chef/cookbooks/rb-logstatter/README.md
 
 %pre
+if [ -d /var/chef/cookbooks/rb-logstatter ]; then
+    rm -rf /var/chef/cookbooks/rb-logstatter
+fi
 
 %post
 case "$1" in
@@ -39,6 +42,12 @@ case "$1" in
   ;;
 esac
 
+%postun
+# Deletes directory when uninstall the package
+if [ "$1" = 0 ] && [ -d /var/chef/cookbooks/rb-logstatter ]; then
+  rm -rf /var/chef/cookbooks/rb-logstatter
+fi
+
 systemctl daemon-reload
 %files
 %attr(0755,root,root)
@@ -49,7 +58,11 @@ systemctl daemon-reload
 %doc
 
 %changelog
-* Sun Jan 21 2024 - Miguel Álvarez <malvarez@redborder.com> - 0.0.2-1
+* Thu Oct 10 2024 Miguel Negrón <manegron@redborder.com>
+- Add pre and postun
+
+* Sun Jan 21 2024 - Miguel Álvarez <malvarez@redborder.com>
 - Add apstate pipeline
-* Mon Sep 25 2023 - Miguel Álvarez <malvarez@redborder.com> - 0.0.1-1
+
+* Mon Sep 25 2023 - Miguel Álvarez <malvarez@redborder.com>
 - Initial spec version
