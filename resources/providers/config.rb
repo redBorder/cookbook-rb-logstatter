@@ -14,7 +14,6 @@ action :add do
 
     dnf_package 'rb-logstatter' do
       action :upgrade
-      flush_cache[:before]
     end
 
     directory config_dir do # /etc/logstatter
