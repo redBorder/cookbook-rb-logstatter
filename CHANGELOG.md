@@ -3,8 +3,8 @@ cookbook-rb-logstatter CHANGELOG
 
 ## 0.0.4
 
-  - Miguel Negrón
-    - [80ea600] Update CHANGELOG.md
+  - nilsver
+    - [c7329bd] remove flush cache
 
 ## 0.0.3
 
