@@ -1,6 +1,11 @@
 cookbook-rb-logstatter CHANGELOG
 ===============
 
+## 0.0.6
+
+  - Pablo Torres
+    - [1426b51] Feature #21767: Add druid-metrics pipeline
+
 ## 0.0.5
 
   - Rafael Gomez
