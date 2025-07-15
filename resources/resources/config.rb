@@ -37,4 +37,5 @@ attribute :logstash_pipelines, kind_of: Array, default: %w(
   bulkstats-pipeline
   redfish-pipeline
   apstate-pipeline
+  druid-metrics-pipeline
 )
